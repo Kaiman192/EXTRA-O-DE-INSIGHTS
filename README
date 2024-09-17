@@ -1,0 +1,36 @@
+# Análise e Modelagem de Custos de Seguro de Saúde
+
+## Descrição do Projeto
+
+Este projeto envolve a análise exploratória de dados (EDA), testes de hipóteses e a criação de um modelo de regressão linear para prever o custo de seguro de saúde com base em variáveis como idade, IMC, número de filhos, status de fumante, entre outros. O conjunto de dados é sintético e foi gerado para este projeto.
+
+## Estrutura do Projeto
+
+- `generate_synthetic_data`: Função para gerar dados sintéticos.
+- `Análise Exploratória de Dados (EDA)`: Análise gráfica e estatística das variáveis do conjunto de dados.
+- `Teste de Hipóteses`: Comparações de custos de seguro entre fumantes e não fumantes, e entre homens e mulheres.
+- `Regressão Linear`: Modelo para prever custos de seguro com base em características dos usuários.
+
+## Dependências
+
+As bibliotecas necessárias estão listadas no arquivo `requirements.txt`. Para instalá-las, execute o seguinte comando:
+
+```bash
+pip install -r requirements.txt
+
+
+Resultados
+Distribuição das variáveis: Um pairplot mostra a relação entre variáveis-chave.
+Matriz de correlação: Exibe as correlações entre as variáveis numéricas.
+Testes de hipóteses: Teste t para verificar a significância estatística nas diferenças de custos entre diferentes grupos.
+Modelo de Regressão Linear: Avaliação do modelo com o erro quadrático médio (MSE) e gráficos de comparação entre valores reais e preditos.
+
+Como Executar
+git clone https://github.com/seu-usuario/seguro-saude.git
+pip install -r requirements.txt
+├── data/                # Contém arquivos de dados (se aplicável)
+├── src/                 # Código fonte
+├── README.md            # Este arquivo
+├── requirements.txt     # Dependências do projeto
+├── .gitignore           # Arquivos a serem ignorados no Git
+└── LICENSE              # Licença do projeto
